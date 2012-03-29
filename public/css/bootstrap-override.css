@@ -6,6 +6,9 @@ body {
 .nav.nav-list li.category {
   text-transform: capitalize;
 }
+.nav.nav-list li.short_category {
+  text-transform: uppercase;
+}
 
 .main-points .row {
   margin-bottom: 20px;

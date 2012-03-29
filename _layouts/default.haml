@@ -36,13 +36,17 @@
               <li class="{{current}}"><a href="/">Home</a>
               {% for category in site.sorted_categories %}
                 {% assign current = nil %}
+                {% assign class = "category" %}
                 {% if category.first == page.category_home %}
                   {% assign current = 'active' %}
+                {% endif %}
+                {% if category.first == 'dea' %}
+                  {% assign class = 'short_category' %}
                 {% endif %}
                 {% if category.first == page.category %}
                   {% assign current = 'active' %}
                 {% endif %}
-                <li class="category {{current}}"><a href="/{{category.first}}">{{ category.first | replace:'-',' ' }}</a></li>
+                <li class="{{class}} {{current}}"><a href="/{{category.first}}">{{ category.first | replace:'-',' ' }}</a></li>
               {% endfor %}
             </ul>
           </div>
