@@ -72,6 +72,7 @@ whichever component I'm curious about:
 
 ```console
 $ grep -R publish *
+$ grep -R timed_request *
 $ grep -R subscribe *
 ```
 
