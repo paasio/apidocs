@@ -34,7 +34,7 @@ Here is the status of several of the components:
 
 * Cloud Controller - not started
 * DEA - progressing
-* Health Manager - not started
+* Health Manager - progressing
 * Router - all pages have content
 * Service Gateway - not started
 * Service Node - not started
