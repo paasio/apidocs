@@ -1,0 +1,20 @@
+{
+  "droplets": [
+    {
+      "droplet": 162,
+      "version": "231339c3c25e6beecc7624e36eb3ad52af878193-2",
+      "instance": "64a1b0ed5269319d5406974d03664fc4",
+      "index": 0,
+      "state": "RUNNING",
+      "state_timestamp": 1332981504
+    },
+    {
+      "droplet": 172,
+      "version": "571ece25b0d0ddb52203a960368336f918da7234-1",
+      "instance": "e911b8dc10ab041295cc997658f3b673",
+      "index": 3,
+      "state": "RUNNING",
+      "state_timestamp": 1332981528
+    }
+  ]
+}

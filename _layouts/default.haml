@@ -1,0 +1,58 @@
+!!! 5
+%html(lang="en")
+  %head
+    %meta{ :charset => 'utf-8' }/
+    %title {{ page.title }} &mdash; {{ site.title }}
+    %meta{ :name => "author", :content => "{{ site.author }}" }/
+    :plain
+      <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+      <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+
+    %link{ :href => '/css/bootstrap.css', :rel => 'stylesheet', :type => 'text/css', :meda => 'all' }/
+    %link{ :href => '/css/pygments/trac.css', :rel => 'stylesheet', :type => 'text/css', :meda => 'screen' }/
+    %link{ :href => '/css/bootstrap-override.css', :rel => 'stylesheet', :type => 'text/css', :meda => 'all' }/
+
+    {{ head }}
+
+  %body
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          %a.brand{ :href => "{{ site.url }}" } {{ site.title }}
+          %ul.nav.pull-right
+            %li <a href="http://github.com/paasio/apidocs">Source</a>
+            %li <a href="/about">About</a>
+
+    .container
+      .row
+        :plain
+          <div class="span3">
+            <ul class="nav nav-list">
+              {% assign current = nil %}
+              {% if page.url == '/index.html' %}
+                {% assign current = 'active' %}
+              {% endif %}
+              <li class="{{current}}"><a href="/">Home</a>
+              {% for category in site.sorted_categories %}
+                <li class="nav-header">{{ category.first | replace:'-',' '}}</li>
+                {% for post in category.last %}
+                  {% assign current = nil %}
+                  {% if page.url == post.url %}
+                    {% assign current = 'active' %}
+                  {% endif %}
+                  <li class="{{current}}"><a href="{{post.url}}">{{ post.title | replace:"Subscribe:","S:" | replace:"Publish:","P:" }}</a>
+                {% endfor %}
+              {% endfor %}
+            </ul>
+          </div>
+        #content.span9
+          {{ content }}
+
+      %footer
+        Licensed under the Apache 2.0 License
+
+    %script{ :src => '/js/jquery.js' }
+    %script{ :src => '/js/bootstrap.js' }
+    {{ outside }}

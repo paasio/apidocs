@@ -1,0 +1,25 @@
+# accessible as site.*
+title: "Cloud Foundry API Documentation"
+description: "Cloud Foundry API Documentation"
+url: "http://apidocs.cloudfoundry.com"
+author: "Ken Robertson"
+email: "ken@invalidlogic.com"
+
+exclude: [ 'public', 'Gemfile', 'Gemfile.lock', 'config.ru', 'manifest.yml' ]
+
+# turn on pygment syntax highlighting
+pygments: true
+
+# pagination
+# paginate: 8
+
+## permalink style: http://wiki.github.com/mojombo/jekyll/permalinks
+permalink: /:categories/:title
+
+# use maruku for markdown
+markdown: maruku
+
+# maruku settings
+maruku:
+  png_dir: files/latex
+  png_url: /images/latex
