@@ -27,3 +27,29 @@ The documentation project is just beginning, so if you are interested in
 contributing, check out the repository on
 [GitHub](http://github.com/paasio/apidocs). To contribute, simply fork the site,
 make your changes, and send a pull request.
+
+## Status
+
+Here is the status of several of the components:
+
+* Cloud Controller - not started
+* DEA - progressing
+* Health Manager - not started
+* Router - all pages have content
+* Service Gateway - not started
+* Service Node - not started
+* Stager - not started
+
+There are a few other side wide items needing work:
+
+* Navigational cleanup
+* Documenting standard formatting
+
+## About
+
+The API Documentation project is not directly affiliated with VMware or the
+Cloud Foundry project itself. This project is a community contributed project.
+
+Project contributors include:
+
+* Ken Robertson, [PaaS.io](http://paas.io), Project Organizer
