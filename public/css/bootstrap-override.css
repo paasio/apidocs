@@ -10,6 +10,13 @@ body {
   text-transform: uppercase;
 }
 
+code {
+  color: #333333;
+  background-color: #fee9cc;
+  padding: 1px 3px;
+  border: none;
+}
+
 .main-points .row {
   margin-bottom: 20px;
 }
