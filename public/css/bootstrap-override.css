@@ -3,6 +3,10 @@ body {
   padding-top: 60px;
 }
 
+.nav.nav-list li.category {
+  text-transform: capitalize;
+}
+
 .main-points .row {
   margin-bottom: 20px;
 }

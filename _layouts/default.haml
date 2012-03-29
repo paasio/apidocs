@@ -35,14 +35,14 @@
               {% endif %}
               <li class="{{current}}"><a href="/">Home</a>
               {% for category in site.sorted_categories %}
-                <li class="nav-header">{{ category.first | replace:'-',' '}}</li>
-                {% for post in category.last %}
-                  {% assign current = nil %}
-                  {% if page.url == post.url %}
-                    {% assign current = 'active' %}
-                  {% endif %}
-                  <li class="{{current}}"><a href="{{post.url}}">{{ post.title | replace:"Subscribe:","S:" | replace:"Publish:","P:" }}</a>
-                {% endfor %}
+                {% assign current = nil %}
+                {% if category.first == page.category_home %}
+                  {% assign current = 'active' %}
+                {% endif %}
+                {% if category.first == page.category %}
+                  {% assign current = 'active' %}
+                {% endif %}
+                <li class="category {{current}}"><a href="/{{category.first}}">{{ category.first | replace:'-',' ' }}</a></li>
               {% endfor %}
             </ul>
           </div>

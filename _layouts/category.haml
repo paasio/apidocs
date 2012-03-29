@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+.page-header
+  %h1 {{ page.title }}
+
+{{ content }}
+
+%h3 Table of Contents
+:plain
+  <ul>
+    {% for category in site.sorted_categories %}
+      {% if category.first == page.category_home %}
+        {% for post in category.last %}
+          <li><a href="{{post.url}}">{{ post.title }}</a>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </ul>
