@@ -1,0 +1,10 @@
+{
+    "id": "e0e82f8d01159ddc8e033e0cc2e376ee",
+    "ip": "192.168.1.1",
+    "port": 12345,
+    "version": 0.99,
+    "max_memory": 33792,
+    "reserved_memory": 2560,
+    "used_memory": 691.296875,
+    "num_clients": 14
+}

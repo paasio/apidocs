@@ -1,7 +1,7 @@
 ---
 layout: post
 category: dea
-title: "Subscribe: dea.start"
+title: "Subscribe: dea.{uuid}.start"
 ---
 
 *TBD*
