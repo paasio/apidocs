@@ -24,6 +24,9 @@ This message expects a response on the included reply channel.
 {% endhighlight %}
 </div>
 
+The response may also include a `state` attribute with the value `SHUTTING_DOWN`
+if the DEA is in the process of shutting down.
+
 ### Requested By
 
 It is triggered by the following components:

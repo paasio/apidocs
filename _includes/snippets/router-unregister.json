@@ -1,8 +1,8 @@
 {
-    "dea": "974f4d94991a9f04f0277b9696cd785d",
-    "host": "192.168.1.1",
-    "port": 34245,
-    "uris": [
-        "helloworld.cloudfoundry.com"
-    ]
+  "dea": "974f4d94991a9f04f0277b9696cd785d",
+  "host": "192.168.1.1",
+  "port": 34245,
+  "uris": [
+    "helloworld.cloudfoundry.com"
+  ]
 }
