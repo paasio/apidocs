@@ -4,6 +4,7 @@ gem 'rack-contrib', :require => 'rack/contrib/try_static'
 gem 'thin'
 
 group :development do
+  gem 'grit'
   gem 'jekyll'
   gem 'RedCloth'
   gem 'maruku'
