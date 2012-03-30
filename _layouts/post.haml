@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+:plain
+  {% assign class = "category" %}
+  {% if page.category == 'dea' %}
+    {% assign class = 'short_category' %}
+  {% endif %}
+
+.page-header
+  %h1 <span class="{{ class }}">{{ page.category | replace:"-"," " }}</span> <small>{{ page.title }}</small>
+
+{{ content }}
+
+%h6 {{ page.date | date: "%A, %B %d, %Y" }}

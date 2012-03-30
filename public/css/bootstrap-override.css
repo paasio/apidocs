@@ -3,10 +3,10 @@ body {
   padding-top: 60px;
 }
 
-.nav.nav-list li.category {
+.category {
   text-transform: capitalize;
 }
-.nav.nav-list li.short_category {
+.short_category {
   text-transform: uppercase;
 }
 
@@ -42,6 +42,7 @@ footer {
 .page-header {
   padding-bottom: 5px;
   margin-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
 }
 
 .fr {
