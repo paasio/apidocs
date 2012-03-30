@@ -26,7 +26,7 @@ There is no response for this message.
 
 It is triggered by the following components:
 
-* DEA
+* [DEA](/dea/publish-dea-heartbeat)
 
 ### Triggered By
 

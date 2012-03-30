@@ -24,7 +24,7 @@ sent back.
 
 It is triggered by the following components:
 
-* Health Manager
+* [Health Manager](/health-manager/publish-healthmanager-start)
 
 ### Triggered By
 

@@ -28,7 +28,7 @@ be sent back for each of the application instances running under the DEA.
 
 It is triggered by the following components:
 
-* Router
+* [Router](/router/publish-router-start)
 
 ### Triggered By
 

@@ -41,7 +41,7 @@ is returned.
 
 It is triggered by the following components:
 
-* Cloud Controller
+* [Cloud Controller](/cloud-controller/publish-healthmanager-status)
 
 ### Triggered By
 

@@ -17,8 +17,8 @@ The message expects no reply.
 
 It is triggered by the following components:
 
-* DEA
-* Cloud Controller
+* [DEA](/dea/publish-router-unregister)
+* [Cloud Controller](/cloud-controller/publish-router-unregister)
 
 It is triggered by the following actions:
 

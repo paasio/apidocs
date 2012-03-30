@@ -28,7 +28,7 @@ to the application's URLs.
 
 It is triggered by the following components:
 
-* Cloud Controller
+* [Cloud Controller](/cloud-controller/publish-dea-update)
 
 ### Triggered By
 

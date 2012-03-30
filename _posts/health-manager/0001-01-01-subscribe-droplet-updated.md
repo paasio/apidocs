@@ -28,7 +28,7 @@ There is no response for this message.
 
 It is triggered by the following components:
 
-* Cloud Controller
+* [Cloud Controller](/cloud-controller/publish-droplet-updated)
 
 ### Triggered By
 

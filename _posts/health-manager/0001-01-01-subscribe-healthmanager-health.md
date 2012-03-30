@@ -39,7 +39,7 @@ number of health instances.
 
 It is triggered by the following components:
 
-* Cloud Controller
+* [Cloud Controller](/cloud-controller/publish-healthmanager-health)
 
 ### Triggered By
 
