@@ -3,7 +3,9 @@ title: Home
 layout: default
 ---
 
+<div markdown="1" class="page-header">
 # Cloud Foundry API Documentation Project
+</div>
 
 ## Welcome
 
