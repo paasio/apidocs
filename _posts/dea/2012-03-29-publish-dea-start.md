@@ -4,6 +4,12 @@ category: dea
 title: "Publish: dea.start"
 ---
 
-*TBD*
+The `dea.start` message is sent out by a DEA when it is starting up and available.
 
-Documentation on this area has not been commenced.
+Nothing is known to subscribe to the message.
+
+<div class="js example">
+{% highlight js %}
+{% include snippets/dea-start.json %}
+{% endhighlight %}
+</div>

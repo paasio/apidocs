@@ -15,3 +15,12 @@ state (such as `RUNNING`), and when it was started.
 {% include snippets/dea-heartbeat.json %}
 {% endhighlight %}
 </div>
+
+The `dea.heartbeat` message is sent by the DEA for the following actions:
+
+* As a follow up to receiving a [`healthmanager.start`](/dea/subscribe-healthmanager-start)
+message.
+* A DEA has started up and found some orphaned application instances.
+* On a timer, defaulting to every 10 seconds.
+* After an application instance has finished starting up, the DEA will send a
+heartbeat containing just the information for that droplet.

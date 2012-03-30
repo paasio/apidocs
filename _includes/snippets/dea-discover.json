@@ -1,0 +1,11 @@
+{
+    "droplet": 108,
+    "limits": {
+        "mem": 128,
+        "disk": 2048,
+        "fds": 256
+    },
+    "name": "helloworld",
+    "runtime": "ruby19",
+    "sha": "11df615f9bf9d8382f244b93d0391849839f7de1"
+}

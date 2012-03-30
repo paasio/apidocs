@@ -1,0 +1,49 @@
+{
+    "droplet": 148,
+    "name": "helloworld",
+    "uris": [
+        "helloworld.cloudfoundry.com"
+    ],
+    "runtime": "ruby19",
+    "framework": "sinatra",
+    "sha1": "72d650c62c017fd00622c2ac5d816e8fe111c20d",
+    "executableFile": "/var/vcap/shared/droplets/72d650c62c017fd00622c2ac5d816e8fe111c20d",
+    "executableUri": "/staged_droplets/148/72d650c62c017fd00622c2ac5d816e8fe111c20d",
+    "version": "72d650c62c017fd00622c2ac5d816e8fe111c20d-1",
+    "services": [
+        {
+            "name": "mysql-b68e4",
+            "type": "database",
+            "label": "mysql-5.5",
+            "vendor": "mysql",
+            "version": "5.5",
+            "tags": [
+                "mysql",
+                "mysql-5.5",
+                "relational"
+            ],
+            "plan": "free",
+            "plan_option": null,
+            "credentials": {
+                "name": "databasename",
+                "hostname": "192.168.1.2",
+                "host": "192.168.1.2",
+                "port": 3306,
+                "user": "user",
+                "username": "pass",
+                "password": "pass"
+            }
+        }
+    ],
+    "limits": {
+        "mem": 256,
+        "disk": 2048,
+        "fds": 256
+    },
+    "env": [
+        "FOO=bar"
+    ],
+    "users": [
+        "user@example.com"
+    ]
+}
