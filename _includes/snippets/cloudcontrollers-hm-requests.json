@@ -1,0 +1,17 @@
+{
+  "droplet": 148,
+  "op": "START",
+  "last_updated": 1333092505,
+  "version": "72d650c62c017fd00622c2ac5d816e8fe111c20d-3",
+  "indices": [
+    0
+  ]
+}
+{
+  "droplet": 148,
+  "op": "STOP",
+  "last_updated": 1333129920,
+  "instances": [
+    "51ea22177c1c81e0c2903d219b19afd1"
+  ]
+}
