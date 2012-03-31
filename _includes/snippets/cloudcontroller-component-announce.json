@@ -1,0 +1,11 @@
+{
+    "type": "CloudController",
+    "index": null,
+    "uuid": "86149654ba69aa01413148c59dc91a03",
+    "host": "192.168.1.15:33644",
+    "credentials": [
+        "a9607fb61cd3569d87786d0c0dbc42d3",
+        "2de7a6dde6e0c41ca14001badd7bd30f"
+    ],
+    "start": "2012-03-31 11:38:48 +0200"
+}

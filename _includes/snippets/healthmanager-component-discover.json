@@ -1,0 +1,12 @@
+{
+    "type": "HealthManager",
+    "index": null,
+    "uuid": "174179cc96e3d713f302cead20da77ff",
+    "host": "192.168.1.15:60515",
+    "credentials":[
+        "e64ba83a8f6ba7908406a8da1f44495b",
+        "5e6521945942b5c4c41ca11a52d4b259"
+    ],
+    "start": "2012-03-31 11:39:07 +0200",
+    "uptime": "0d:6h:6m:7s"
+}
