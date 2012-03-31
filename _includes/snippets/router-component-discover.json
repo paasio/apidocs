@@ -1,0 +1,12 @@
+{
+    "type": "Router",
+    "index": null,
+    "uuid": "8ff006200d95a761d809458fd5a3edae",
+    "host": "192.168.1.15:44860",
+    "credentials": [
+        "cbfb64e1d0c727d8af53472265cabc88",
+        "8fcd70d806f0720a3fd7e72c64ba789b"
+    ],
+    "start": "2012-03-31 11:39:08 +0200",
+    "uptime": "0d:6h:5m:49s"
+}
