@@ -1,0 +1,27 @@
+{
+    "name": "apidocs",
+    "staging": {
+        "model": "rack",
+        "stack": "ruby18"
+    },
+    "uris": [
+        "apidocs.vcap.me"
+    ],
+    "instances": 1,
+    "runningInstances": 0,
+    "resources": {
+        "memory": 128,
+        "disk": 2048,
+        "fds" :256
+    },
+    "state": "STOPPED",
+    "services": [],
+    "version": "ca20b9d0a14ca4b6e58b7715000d239ee8323d0e-1",
+    "env": [],
+    "meta": {
+        "debug": null,
+        "console": null,
+        "version": 3,
+        "created": 1333291087
+    }
+}

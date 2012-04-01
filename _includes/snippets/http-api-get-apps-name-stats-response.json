@@ -1,0 +1,24 @@
+{
+    "0": {
+        "state": "RUNNING",
+        "stats": {
+            "name": "apidocs",
+            "host": "172.30.49.231",
+            "port": 63793,
+            "uris":[
+                "apidocs.vcap.me"
+            ],
+            "uptime": 2649.487578181,
+            "mem_quota": 134217728,
+            "disk_quota": 2147483648,
+            "fds_quota": 256,
+            "cores": 4,
+            "usage": {
+                "time": "2012-04-01 14:00:32 +0000",
+                "cpu": 0.0,
+                "mem": 22284.0,
+                "disk": 31469568
+            }
+        }
+    }
+}
