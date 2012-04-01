@@ -1,0 +1,17 @@
+[
+    {
+        "email": "admin@vcap.me",
+        "admin": true,
+        "apps": []
+    },
+    {
+        "email": "user@vcap.me",
+        "admin": false,
+        "apps": [
+            {
+                "name": "apidocs",
+                "state": "STOPPED"
+            }
+        ]
+    }
+]

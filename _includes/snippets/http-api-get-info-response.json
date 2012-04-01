@@ -1,0 +1,10 @@
+{
+    "name": "vcap",
+    "build": 2222,
+    "support": "http://support.cloudfoundry.com",
+    "version": "0.999",
+    "description": "VMware's Cloud Application Platform",
+    "allow_debug": false,
+    "authorization_endpoint": "http://uaa.vcap.me",
+    "authenticationEndpoint": "http://uaa.vcap.me"
+}

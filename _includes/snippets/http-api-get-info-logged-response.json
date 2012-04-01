@@ -1,0 +1,217 @@
+{
+    "name": "vcap",
+    "build": 2222,
+    "support": "http://support.cloudfoundry.com",
+    "version": "0.999",
+    "description": "VMware's Cloud Application Platform",
+    "allow_debug": false,
+    "authorization_endpoint": "http://uaa.vcap.me",
+    "authenticationEndpoint": "http://uaa.vcap.me",
+    "user": "user@vcap.me",
+    "limits": {
+        "memory": 2048,
+        "app_uris": 4,
+        "services": 16,
+        "apps": 20
+    },
+    "usage": {
+        "memory": 0,
+        "apps": 0,
+        "services": 0
+    },
+    "frameworks": {
+        "rack": {
+            "name": "rack",
+            "runtimes": [
+                {
+                    "name": "ruby18",
+                    "version": "1.8.7",
+                    "description": "Ruby 1.8"
+                },
+                {
+                    "name": "ruby19",
+                    "version": "1.9.2p180",
+                    "description": "Ruby 1.9"
+                }
+            ],
+            "appservers": [
+                {
+                    "name": "thin",
+                    "description": "Thin"
+                }
+            ],
+            "detection": [
+                {
+                    "config.ru": true
+                },
+                {
+                    "config/environment.rb": false
+                }
+            ]
+        },
+        "grails": {
+            "name": "grails",
+            "runtimes": [
+                {
+                    "name": "java",
+                    "version": 1.6,
+                    "description": "Java 6"
+                }
+            ],
+            "appservers": [
+                {
+                    "name": "tomcat",
+                    "description": "Tomcat"
+                }
+            ],
+            "detection": [
+                {
+                    "*.war": true
+                }
+            ]
+        },
+        "lift": {
+            "name": "lift",
+            "runtimes": [
+                {
+                    "name": "java",
+                    "version": 1.6,
+                    "description": "Java 6"
+                }
+            ],
+            "appservers": [
+                {
+                    "name": "tomcat",
+                    "description": "Tomcat"
+                }
+            ],
+            "detection": [
+                {
+                    "*.war": true
+                }
+            ]
+        },
+        "java_web": {
+            "name": "java_web",
+            "runtimes": [
+                {
+                    "name": "java",
+                    "version": 1.6,
+                    "description": "Java 6"
+                }
+            ],
+            "appservers": [
+                {
+                    "name": "tomcat",
+                    "description": "Tomcat"
+                }
+            ],
+            "detection": [
+                {
+                    "*.war": true
+                }
+            ]
+        },
+        "node": {
+            "name": "node",
+            "runtimes": [
+                {
+                    "name": "node",
+                    "version": "0.4.12",
+                    "description": "Node.js"
+                },
+                {
+                    "name": "node06",
+                    "version": "0.6.8",
+                    "description": "Node.js"
+                }
+            ],
+            "appservers": [
+            ],
+            "detection": [
+                {
+                    "*.js": "."
+                }
+            ]
+        },
+        "spring": {
+            "name": "spring",
+            "runtimes": [
+                {
+                    "name": "java",
+                    "version": 1.6,
+                    "description": "Java 6"
+                }
+            ],
+            "appservers": [
+                {
+                    "name": "tomcat",
+                    "description": "Tomcat"
+                }
+            ],
+            "detection": [
+                {
+                    "*.war": true
+                }
+            ]
+        },
+        "sinatra": {
+            "name": "sinatra",
+            "runtimes": [
+                {
+                    "name": "ruby18",
+                    "version": "1.8.7",
+                    "description": "Ruby 1.8"
+                },
+                {
+                    "name": "ruby19",
+                    "version": "1.9.2p180",
+                    "description": "Ruby 1.9"
+                }
+            ],
+            "appservers": [
+                {
+                    "name": "thin",
+                    "description": "Thin"
+                }
+            ],
+            "detection": [
+                {
+                    "*.rb": "require 'sinatra'|require \"sinatra\""
+                },
+                {
+                    "config/environment.rb": false
+                }
+            ]
+        },
+        "rails3": {
+            "name": "rails3",
+            "runtimes": [
+                {
+                    "name": "ruby18",
+                    "version": "1.8.7",
+                    "description": "Ruby 1.8"
+                },
+                {
+                    "name": "ruby19",
+                    "version": "1.9.2p180",
+                    "description": "Ruby 1.9"
+                }
+            ],
+            "appservers": [
+                {
+                    "name": "thin",
+                    "description": "Thin"
+                }
+            ],
+            "detection": [
+                {
+                    "config/application.rb": true
+                },
+                {
+                    "config/environment.rb": true
+                }
+            ]
+        }
+    }
+}
