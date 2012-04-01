@@ -55,3 +55,4 @@ Cloud Foundry project itself. This project is a community contributed project.
 Project contributors include:
 
 * Ken Robertson, [PaaS.io](http://paas.io), Project Organizer
+* [Ferran Rodenas](https://github.com/frodenas)
