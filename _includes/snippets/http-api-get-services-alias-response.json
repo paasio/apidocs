@@ -1,0 +1,18 @@
+{
+    "name": "redis-d80d7",
+    "type": "key-value",
+    "vendor": "redis",
+    "version": "2.2",
+    "tier": "free",
+    "properties": {},
+    "meta": {
+        "created": 1310772895,
+        "updated": 1310772895,
+        "tags": [
+            "redis",
+            "redis-2.2",
+            "key-value",
+            "nosql"],
+        "version": 1
+    }
+}

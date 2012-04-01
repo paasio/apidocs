@@ -1,0 +1,78 @@
+{
+    "database": {
+        "mysql": {
+            "5.1": {
+                "id": 1,
+                "vendor": "mysql",
+                "version": "5.1",
+                "tiers": {
+                    "free": {
+                        "options": {},
+                        "order": 1
+                    }
+                },
+                "type": "database",
+                "description": "MySQL database service"}
+        },
+        "postgresql": {
+            "9.0": {
+                "id": 6,
+                "vendor": "postgresql",
+                "version": "9.0",
+                "tiers": {
+                    "free": {
+                        "options": {},
+                        "order": 1
+                    }
+                },
+                "type": "database",
+                "description": "PostgreSQL database service (vFabric)"}
+        }
+    },
+    "key-value": {
+        "redis": {
+            "2.2": {
+                "id": 2,
+                "vendor": "redis",
+                "version": "2.2",
+                "tiers": {
+                    "free": {
+                        "options": {},
+                        "order": 1
+                    }
+                },
+                "type": "key-value",
+                "description": "Redis key-value store service"}
+        },"mongodb": {
+            "1.8": {
+                "id": 3,
+                "vendor": "mongodb",
+                "version": "1.8",
+                "tiers": {
+                    "free": {
+                        "options": {},
+                        "order": 1
+                    }
+                },
+                "type": "key-value",
+                "description": "MongoDB NoSQL store"}
+        }
+    },
+    "generic": {
+        "rabbitmq": {
+            "2.4": {
+                "id": 7,
+                "vendor": "rabbitmq",
+                "version": "2.4",
+                "tiers": {
+                    "free": {
+                        "options": {},
+                        "order": 1
+                    }
+                },
+                "type": "generic",
+                "description": "RabbitMQ message queue"
+            }
+        }
+    }
+}
