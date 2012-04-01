@@ -1,14 +1,14 @@
 ---
 layout: post
-category: http-api
-title: "GET /apps/{name}/stats"
+category: http-apps
+title: "GET /apps/{name}/instances"
 ---
 
-Returns information about application statistics on the target cloud.
+Returns information about application instances on the target cloud.
 
 ### Resource URL
 
-`GET /apps/{name}/stats`
+`GET /apps/{name}/instances`
 
 ### Parameters
 
@@ -22,12 +22,12 @@ Returns information about application statistics on the target cloud.
 
 **Request**
 
-`GET http://api.vcap.me/apps/apidocs/stats`
+`GET http://api.vcap.me/apps/apidocs/instances`
 
 **Response**
 
 <div class="js example">
 {% highlight js %}
-{% include snippets/http-api-get-apps-name-stats-response.json %}
+{% include snippets/http-api-get-apps-name-instances-response.json %}
 {% endhighlight %}
 </div>

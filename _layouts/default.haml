@@ -34,19 +34,34 @@
                 {% assign current = 'active' %}
               {% endif %}
               <li class="{{current}}"><a href="/">Home</a>
-              {% for category in site.sorted_categories %}
+
+              <li class="nav-header">HTTP Endpoints</li>
+              {% for category in site.endpoint_categories %}
                 {% assign current = nil %}
                 {% assign class = "category" %}
-                {% if category.first == page.category_home %}
+                {% if category == page.category_home %}
                   {% assign current = 'active' %}
                 {% endif %}
-                {% if category.first == 'dea' %}
+                {% if category == page.category %}
+                  {% assign current = 'active' %}
+                {% endif %}
+                <li class="{{class}} {{current}}"><a href="/{{category}}">{{ category | replace:'http-','' | replace:'-',' ' }}</a></li>
+              {% endfor %}
+
+              <li class="nav-header">NATS Messages</li>
+              {% for category in site.nats_categories %}
+                {% assign current = nil %}
+                {% assign class = "category" %}
+                {% if category == page.category_home %}
+                  {% assign current = 'active' %}
+                {% endif %}
+                {% if category == 'dea' %}
                   {% assign class = 'short_category' %}
                 {% endif %}
-                {% if category.first == page.category %}
+                {% if category == page.category %}
                   {% assign current = 'active' %}
                 {% endif %}
-                <li class="{{class}} {{current}}"><a href="/{{category.first}}">{{ category.first | replace:'-',' ' }}</a></li>
+                <li class="{{class}} {{current}}"><a href="/{{category}}">{{ category | replace:'-',' ' }}</a></li>
               {% endfor %}
             </ul>
           </div>

@@ -1,14 +1,14 @@
 ---
 layout: post
-category: http-api
-title: "GET /apps"
+category: http-services
+title: "GET /services"
 ---
 
-Returns the list of applications deployed on the target cloud.
+Returns a list of provisioned services that are available on the target cloud.
 
 ### Resource URL
 
-`GET /apps`
+`GET /services`
 
 ### Parameters
 
@@ -22,12 +22,12 @@ None
 
 **Request**
 
-`GET http://api.vcap.me/apps`
+`GET http://api.vcap.me/services`
 
 **Response**
 
 <div class="js example">
 {% highlight js %}
-{% include snippets/http-api-get-apps-response.json %}
+{% include snippets/http-api-get-services-response.json %}
 {% endhighlight %}
 </div>

@@ -16,6 +16,22 @@ pygments: true
 ## permalink style: http://wiki.github.com/mojombo/jekyll/permalinks
 permalink: /:categories/:title
 
+# category types
+endpoint_categories:
+  - http-authentication
+  - http-info
+  - http-apps
+  - http-services
+  - http-users
+nats_categories:
+  - cloud-controller
+  - dea
+  - health-manager
+  - router
+  - service-gateway
+  - service-node
+  - stager
+
 # use maruku for markdown
 markdown: maruku
 

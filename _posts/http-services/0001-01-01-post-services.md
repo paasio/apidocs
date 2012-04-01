@@ -1,6 +1,6 @@
 ---
 layout: post
-category: http-api
+category: http-services
 title: "POST /services"
 ---
 
