@@ -1,0 +1,43 @@
+{
+  "app_id": 14,
+  "properties": {
+    "services": [
+      {
+        "name": "mysql-b68e4",
+        "type": "database",
+        "label": "mysql-5.5",
+        "vendor": "mysql",
+        "version": "5.5",
+        "tags": [
+          "mysql",
+          "mysql-5.5",
+          "relational"
+        ],
+        "plan": "free",
+        "plan_option": null,
+        "credentials": {
+          "name": "databasename",
+          "hostname": "192.168.1.2",
+          "host": "192.168.1.2",
+          "port": 3306,
+          "user": "user",
+          "username": "pass",
+          "password": "pass"
+        }
+      }
+    ],
+    "framework": "rack",
+    "runtime": "ruby19",
+    "resources": {
+      "memory": 128,
+      "disk": 2048,
+      "fds": 256
+    },
+    "environment": [
+      "FOO=bar"
+    ]
+  },
+  "download_uri": "http://user:pass@192.168.1.1:9022/staging/app/14",
+  "upload_uri": "http://user:pass@192.168.1.1:9022/staging/droplet/14/41772a7124d85ae7fd70c",
+  "notify_subj": "cc.staging.4f6dd7b34728f484b1737d4af775be2c"
+}

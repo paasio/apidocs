@@ -1,0 +1,10 @@
+{
+  "task_id": "feef635eeee258e6404439307a874ac7",
+  "task_log": "[2012-04-01 19:43:23] Starting staging operation\n
+    [2012-04-01 19:43:23] Setting up temporary directories\n
+    [2012-04-01 19:43:23] Fetching application bits from the Cloud Controller\n
+    [2012-04-01 19:43:24] Staging application\n
+    [2012-04-01 19:43:27] # Logfile created on 2012-04-01 19:43:25 -0700 by logger.rb/25413\n
+    <<stdout from staging>>\n
+    [2012-04-01 19:43:27] Uploading droplet\n[2012-04-01 19:43:30] Done!\n"
+}
