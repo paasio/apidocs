@@ -1,0 +1,35 @@
+{
+  "type": "Neo4jaaS-Node",
+  "index": 0,
+  "uuid": "0-3eb861fd419815da256c9acdc06db198",
+  "host": "192.168.1.15:37400",
+  "credentials": [
+    "3a45dcf583062657b9ed1b23a3cb9f1b",
+    "ab69b0bd1d1881520bec5f7f2171d11b"
+  ],
+  "start": "2012-04-02 21:02:36 +0200",
+  "num_cores": 4,
+  "config": {
+    "index": 0,
+    "plan": "free",
+    "capacity": 200,
+    "base_dir": "/var/vcap/services/neo4j/instances",
+    "ip_route": null,
+    "node_id": "neo4j_node_0",
+    "z_interval": null,
+    "local_db": "sqlite3:/var/vcap/services/neo4j/neo4j_node.db",
+    "migration_nfs": null,
+    "max_nats_payload": null,
+    "config_template": "/home/frodenas/cloudfoundry/vcap/services/neo4j/resources/neo4j-server.properties.erb",
+    "port_range": "45000..55000",
+    "neo4j_path": "/var/vcap/services/neo4j",
+    "available_memory": 4096,
+    "max_memory": 128,
+    "neo4j_template": "/home/frodenas/cloudfoundry/vcap/services/neo4j/resources/neo4j.properties.erb",
+    "log4j_template": "/home/frodenas/cloudfoundry/vcap/services/neo4j/resources/log4j.properties.erb"
+  },
+  "available_memory": 4096,
+  "uptime": "0d:2h:34m:5s",
+  "mem": 49084,
+  "cpu": 0.1
+}

@@ -1,0 +1,46 @@
+{
+  "type": "MyaaS-Node",
+  "index": 0,
+  "uuid": "0-1a86909fd0dc58115f7d3ba819009aa3",
+  "host": "192.168.1.15:51388",
+  "credentials": [
+    "b67983fa2ae556b843fc49b04c80e030",
+    "e00bca1bc40f2e9d2da5f13703935f64"
+  ],
+  "start": "2012-04-02 21:02:43 +0200",
+  "num_cores": 4,
+  "config": {
+    "index": 0,
+    "plan": "free",
+    "capacity": 50,
+    "base_dir": "/var/vcap/services/mysql/",
+    "ip_route": null,
+    "node_id": "mysql_node_0",
+    "z_interval": null,
+    "local_db": "sqlite3:/var/vcap/services/mysql/mysql_node.db",
+    "migration_nfs": "/mnt/migration",
+    "max_nats_payload": null,
+    "mysqldump_bin": "mysqldump",
+    "gzip_bin": "gzip",
+    "mysql_bin": "mysql",
+    "max_db_size": 20,
+    "max_long_query": 3,
+    "max_long_tx": 30,
+    "max_user_conns": null,
+    "socket": null
+  },
+  "queries_since_startup": 32197,
+  "queries_per_second": 3.6333333333333333,
+  "database_status": [
+
+  ],
+  "max_capacity": 50,
+  "available_capacity": 50,
+  "long_queries_killed": 0,
+  "long_transactions_killed": 0,
+  "provision_served": 0,
+  "binding_served": 0,
+  "uptime": "0d:2h:29m:49s",
+  "mem": 48884,
+  "cpu": 0.2
+}

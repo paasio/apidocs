@@ -1,0 +1,49 @@
+{
+  "type": "Neo4jaaS-Provisioner",
+  "index": 0,
+  "uuid": "0-c3d44c92a77ea9d239fa299e8bf745c1",
+  "host": "192.168.1.15:52580",
+  "credentials": [
+    "539fc7be9e47d3c748a6c8d9c2cdcc87",
+    "7be1e673eeadf374181ad993a2b05698"
+  ],
+  "start": "2012-04-02 21:02:17 +0200",
+  "num_cores": 4,
+  "config": {
+    "index": 0,
+    "version": "1.4",
+    "ip_route": null,
+    "node_timeout": 10,
+    "z_interval": null,
+    "allow_over_provisioning": null,
+    "max_nats_payload": null,
+    "additional_options": {
+
+    },
+    "status": null,
+    "plan_management": null
+  },
+  "nodes": {
+    "neo4j_node_0": {
+      "available_memory": 4096,
+      "id": "neo4j_node_0",
+      "plan": "free",
+      "time": 1333402815
+    }
+  },
+  "prov_svcs": {
+
+  },
+  "orphan_instances": {
+
+  },
+  "orphan_bindings": {
+
+  },
+  "plans": [
+
+  ],
+  "uptime": "0d:2h:38m:13s",
+  "mem": 46092,
+  "cpu": 0.1
+}

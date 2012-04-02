@@ -1,0 +1,68 @@
+{
+  "type": "HealthManager",
+  "index": null,
+  "uuid": "029122ba9a03b337c4ec36425d88ea34",
+  "host": "192.168.1.15:42577",
+  "credentials": [
+    "3acdf6219db11193541da8afe6f2e641",
+    "2337c5a6bae03b4451a0c6ad12a815ce"
+  ],
+  "start": "2012-04-02 21:02:38 +0200",
+  "num_cores": 4,
+  "config": {
+    "local_route": null,
+    "logging": {
+      "level": "info"
+    },
+    "pid": "/var/vcap/sys/run/healthmanager.pid",
+    "rails_environment": "production",
+    "intervals": {
+      "database_scan": 60,
+      "droplet_lost": 30,
+      "droplets_analysis": 10,
+      "flapping_death": 3,
+      "flapping_timeout": 180,
+      "restart_timeout": 20,
+      "stable_state": 60
+    }
+  },
+  "total_apps": 0,
+  "total_users": 1,
+  "total_instances": 0,
+  "running_instances": 0,
+  "crashed_instances": 0,
+  "down_instances": 0,
+  "queue_length": 0,
+  "total": {
+    "frameworks": {
+
+    },
+    "runtimes": {
+
+    }
+  },
+  "running": {
+    "frameworks": {
+
+    },
+    "runtimes": {
+
+    }
+  },
+  "heartbeat_msgs_received": 0,
+  "droplet_exited_msgs_received": 0,
+  "droplet_updated_msgs_received": 0,
+  "healthmanager_status_msgs_received": 0,
+  "healthmanager_health_request_msgs_received": 0,
+  "users": [
+    {
+      "email": "admin@vcap.me"
+    }
+  ],
+  "apps": [
+
+  ],
+  "uptime": "0d:2h:17m:58s",
+  "mem": 56288,
+  "cpu": 0.1
+}

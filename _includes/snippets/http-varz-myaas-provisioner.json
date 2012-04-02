@@ -1,0 +1,50 @@
+{
+  "type": "MyaaS-Provisioner",
+  "index": 0,
+  "uuid": "0-25f8894999472478373138d6b6c35ddb",
+  "host": "192.168.1.15:59772",
+  "credentials": [
+    "9bfea4e2e1f9a8dea1ba32e5d5b45bd3",
+    "e54278209cc0fe3337bfc5ba6a331d15"
+  ],
+  "start": "2012-04-02 21:02:23 +0200",
+  "num_cores": 4,
+  "config": {
+    "index": 0,
+    "version": "5.1",
+    "ip_route": null,
+    "node_timeout": 2,
+    "z_interval": null,
+    "allow_over_provisioning": null,
+    "max_nats_payload": null,
+    "additional_options": {
+      "resque": null,
+      "upload_temp_dir": null
+    },
+    "status": null,
+    "plan_management": null
+  },
+  "nodes": {
+    "mysql_node_0": {
+      "available_capacity": 50,
+      "id": "mysql_node_0",
+      "plan": "free",
+      "time": 1333402766
+    }
+  },
+  "prov_svcs": {
+
+  },
+  "orphan_instances": {
+
+  },
+  "orphan_bindings": {
+
+  },
+  "plans": [
+
+  ],
+  "uptime": "0d:2h:37m:5s",
+  "mem": 47276,
+  "cpu": 0.1
+}

@@ -1,0 +1,50 @@
+{
+  "type": "MongoaaS-Provisioner",
+  "index": 0,
+  "uuid": "0-8adeee92fd347caabcdf590e71cfcba6",
+  "host": "192.168.1.15:41786",
+  "credentials": [
+    "27e40800fb7c50741d003e663dc52ceb",
+    "82e724ac255aeba716f89ffb76514d22"
+  ],
+  "start": "2012-04-02 21:02:20 +0200",
+  "num_cores": 4,
+  "config": {
+    "index": 0,
+    "version": "1.8",
+    "ip_route": null,
+    "node_timeout": 5,
+    "z_interval": null,
+    "allow_over_provisioning": null,
+    "max_nats_payload": null,
+    "additional_options": {
+      "resque": null,
+      "upload_temp_dir": null
+    },
+    "status": null,
+    "plan_management": null
+  },
+  "nodes": {
+    "mongodb_node_0": {
+      "available_capacity": 50,
+      "id": "mongodb_node_0",
+      "plan": "free",
+      "time": 1333402685
+    }
+  },
+  "prov_svcs": {
+
+  },
+  "orphan_instances": {
+
+  },
+  "orphan_bindings": {
+
+  },
+  "plans": [
+
+  ],
+  "uptime": "0d:2h:35m:47s",
+  "mem": 48340,
+  "cpu": 0.1
+}
