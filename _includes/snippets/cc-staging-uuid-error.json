@@ -1,0 +1,11 @@
+{
+  "task_id": "500d6f1272c1f37782806cffd082e62d",
+  "task_log": "[2012-04-01 19:43:23] Starting staging operation\n
+    [2012-04-01 19:43:23] Setting up temporary directories\n
+    [2012-04-01 19:43:23] Fetching application bits from the Cloud Controller\n
+    [2012-04-01 19:43:24] Staging application\n
+    [2012-04-01 19:43:36] Fetching missing gems from RubyGems\n
+    [2012-04-01 19:43:36] Error: Staging plugin failed staging application:\n
+    Failed fetching missing gems from RubyGems\n\n",
+  "error": "{\"class\":\"VCAP::Stager::StagingPluginError\",\"details\":\"Failed fetching missing gems from RubyGems\\n\"}"
+}
