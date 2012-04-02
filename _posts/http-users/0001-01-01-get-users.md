@@ -16,7 +16,7 @@ None
 
 ### Requires Authentication?
 
-[Yes](/http-api/authentication)
+[Yes](/http-authentication)
 
 ### Example Request
 
