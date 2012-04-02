@@ -34,18 +34,18 @@ make your changes, and send a pull request.
 
 Here is the status of several of the components:
 
-* Cloud Controller - not started
+* HTTP APIs - mostly focused on user-facing endpoints so far
+* Cloud Controller - progressing
 * DEA - mostly complete
 * Health Manager - all pages have content
 * Router - all pages have content
 * Service Gateway - not started
 * Service Node - not started
-* Stager - not started
+* Stager - all pages have content
 
 There are a few other side wide items needing work:
 
-* Navigational cleanup
-* Documenting standard formatting
+* Document standard formatting
 
 ## About
 
