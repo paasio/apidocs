@@ -1,0 +1,172 @@
+{
+  "type": "DEA",
+  "index": null,
+  "uuid": "56539d9ec7b4bf85095ae8525febd207",
+  "host": "192.168.1.15:36907",
+  "credentials": [
+    "2442fa4d0955316ba0e9194f425b60b6",
+    "f070ff9311bd5840126182e3f536b019"
+  ],
+  "start": "2012-04-03 22:16:46 +0200",
+  "num_cores": 4,
+  "config": {
+    "base_dir": "/var/vcap.local/dea",
+    "local_route": null,
+    "filer_port": 12345,
+    "intervals": {
+      "heartbeat": 10
+    },
+    "logging": {
+      "level": "debug"
+    },
+    "max_memory": 4096,
+    "secure": false,
+    "multi_tenant": true,
+    "enforce_ulimit": false,
+    "pid": "/var/vcap/sys/run/dea.pid",
+    "force_http_sharing": true,
+    "runtimes": {
+      "ruby18": {
+        "executable": "/home/frodenas/cloudfoundry/.deployments/devbox/deploy/rubies/ruby-1.8.7-p334/bin/ruby",
+        "version": "1.8.7",
+        "version_flag": "-e 'puts RUBY_VERSION'",
+        "additional_checks": "-e 'puts RUBY_PATCHLEVEL >= 174'",
+        "environment": null,
+        "enabled": true
+      },
+      "ruby19": {
+        "executable": "/home/frodenas/cloudfoundry/.deployments/devbox/deploy/rubies/ruby-1.9.2-p180/bin/ruby",
+        "version": "1.9.2",
+        "version_flag": "-e 'puts RUBY_VERSION'",
+        "additional_checks": "-e 'puts RUBY_PATCHLEVEL >= 180'",
+        "environment": null,
+        "enabled": true
+      },
+      "node": {
+        "executable": "/home/frodenas/cloudfoundry/.deployments/devbox/deploy/nodes/node-0.4.12/bin/node",
+        "version": "0.4.12",
+        "version_flag": "-v",
+        "environment": null,
+        "debug_env": {
+          "run": [
+            "NODE_ARGS=\"--debug=$VCAP_DEBUG_PORT\""
+          ],
+          "suspend": [
+            "NODE_ARGS=\"--debug-brk=$VCAP_DEBUG_PORT\""
+          ]
+        },
+        "enabled": true
+      },
+      "node06": {
+        "executable": "/home/frodenas/cloudfoundry/.deployments/devbox/deploy/nodes/node-0.6.8/bin/node",
+        "version": "0.6.8",
+        "version_flag": "-v",
+        "environment": null,
+        "debug_env": {
+          "run": [
+            "NODE_ARGS=\"--debug=$VCAP_DEBUG_PORT\""
+          ],
+          "suspend": [
+            "NODE_ARGS=\"--debug-brk=$VCAP_DEBUG_PORT\""
+          ]
+        },
+        "enabled": true
+      },
+      "java": {
+        "executable": "/usr/bin/java",
+        "version": "1.6.0",
+        "version_flag": "-version",
+        "environment": null,
+        "debug_env": {
+          "run": [
+            "JAVA_OPTS=\"$JAVA_OPTS -Xdebug -Xrunjdwp:transport=dt_socket,address=$VCAP_DEBUG_PORT,server=y,suspend=n\""
+          ],
+          "suspend": [
+            "JAVA_OPTS=\"$JAVA_OPTS -Xdebug -Xrunjdwp:transport=dt_socket,address=$VCAP_DEBUG_PORT,server=y,suspend=y\""
+          ]
+        },
+        "enabled": true
+      },
+      "erlangR14B02": {
+        "executable": "/home/frodenas/cloudfoundry/.deployments/devbox/deploy/erlang/bin/erl",
+        "version": ".* 5.8.3",
+        "version_flag": "-version",
+        "environment": null,
+        "enabled": true
+      },
+      "php": {
+        "executable": "/usr/bin/php",
+        "version": "5.3.[2-6]",
+        "version_flag": "-vn",
+        "environment": null,
+        "enabled": true
+      },
+      "python2": {
+        "executable": "/usr/bin/python",
+        "version": "2.[5-7]",
+        "version_flag": "--version",
+        "environment": null,
+        "enabled": true
+      }
+    },
+    "config_file": "/home/frodenas/cloudfoundry/.deployments/devbox/config/dea.yml"
+  },
+  "apps_max_memory": 4096,
+  "apps_reserved_memory": 128,
+  "apps_used_memory": 22,
+  "num_apps": 1,
+  "running_apps": [
+    {
+      "droplet_id": 1,
+      "instance_id": "514958fb1a1b1a06f30bcc55d5c2a20c",
+      "instance_index": 0,
+      "name": "apidocs",
+      "dir": "/var/vcap.local/dea/apps/apidocs-0-514958fb1a1b1a06f30bcc55d5c2a20c",
+      "uris": [
+        "apidocs.vcap.me"
+      ],
+      "users": [
+        "admin@vcap.me"
+      ],
+      "version": "cc0ffc79b243095064a20129ac980e6555632fd7-1",
+      "mem_quota": 134217728,
+      "disk_quota": 2147483648,
+      "fds_quota": 256,
+      "state": "RUNNING",
+      "runtime": "ruby18",
+      "framework": "rack",
+      "start": "2012-04-03 22:22:20 +0200",
+      "state_timestamp": 1333484541,
+      "log_id": "(name=apidocs app_id=1 instance=514958fb1a1b1a06f30bcc55d5c2a20c index=0)",
+      "resources_tracked": true,
+      "port": 35014,
+      "staged": "apidocs-0-514958fb1a1b1a06f30bcc55d5c2a20c",
+      "pid": 6027,
+      "usage": {
+        "time": "2012-04-03 22:26:12 +0200",
+        "cpu": 0.2,
+        "mem": 23304.0,
+        "disk": 32202752
+      }
+    }
+  ],
+  "frameworks": {
+    "rack": {
+      "used_memory": 23304.0,
+      "reserved_memory": 131072,
+      "used_disk": 32202752,
+      "used_cpu": 0.2
+    }
+  },
+  "runtimes": {
+    "ruby18": {
+      "used_memory": 23304.0,
+      "reserved_memory": 131072,
+      "used_disk": 32202752,
+      "used_cpu": 0.2
+    }
+  },
+  "uptime": "0d:0h:9m:27s",
+  "mem": 38012,
+  "cpu": 0.4
+}
