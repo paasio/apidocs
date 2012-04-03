@@ -1,0 +1,41 @@
+{
+  "type": "RaaS-Node",
+  "index": 0,
+  "uuid": "0-6e2fa50c775e56157fc5969327e305a5",
+  "host": "192.168.1.15:40724",
+  "credentials": [
+    "00bdc704c108bd5e9ecfac24740d36c4",
+    "7b7e40da46f26874d72074c05fb0836f"
+  ],
+  "start": "2012-04-02 21:02:30 +0200",
+  "num_cores": 4,
+  "config": {
+    "index": 0,
+    "plan": "free",
+    "capacity": 200,
+    "base_dir": "/var/vcap/services/redis/instances",
+    "ip_route": null,
+    "node_id": "redis_node_0",
+    "z_interval": null,
+    "local_db": "sqlite3:/var/vcap/services/redis/redis_node.db",
+    "migration_nfs": "/mnt/vcap",
+    "max_nats_payload": null,
+    "redis_server_path": "/home/frodenas/cloudfoundry/.deployments/devbox/deploy/redis/bin/redis-server",
+    "config_template": "/home/frodenas/cloudfoundry/vcap/services/redis/resources/redis.conf.erb",
+    "port_range": "5000..25000",
+    "max_memory": 16,
+    "max_swap": 32,
+    "redis_log_dir": "/var/vcap/services/redis/logs",
+    "command_rename_prefix": "protect-command-prefix",
+    "max_clients": 500
+  },
+  "max_capacity": 200,
+  "available_capacity": 200,
+  "provisioned_instances": [
+
+  ],
+  "provisioned_instances_num": 0,
+  "uptime": "0d:2h:29m:30s",
+  "mem": 48364,
+  "cpu": 0.1
+}

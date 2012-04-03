@@ -1,0 +1,82 @@
+{"type": "UAA",
+    "links":{
+        "JMImplementation": "http://192.168.1.15:8080/varz/JMImplementation",
+        "spring.application": "http://192.168.1.15:8080/varz/spring.application",
+        "com.sun.management": "http://192.168.1.15:8080/varz/com.sun.management",
+        "localEngine": "http://192.168.1.15:8080/varz/localEngine",
+        "env": "http://192.168.1.15:8080/varz/env",
+        "java.lang": "http://192.168.1.15:8080/varz/java.lang",
+        "java.util.logging": "http://192.168.1.15:8080/varz/java.util.logging"
+    },
+    "mem": 137191304,
+    "memory": {
+        "verbose": false,
+        "non_heap_memory_usage": {
+            "max": 224395264,
+            "committed": 77791232,
+            "init": 24313856,
+            "used": 50800008
+        },
+        "object_pending_finalization_count": 0,
+        "heap_memory_usage": {
+            "max": 477233152,
+            "committed": 223543296,
+            "init": 62037824,
+            "used": 137191304
+        }
+    },
+    "token_store": {
+        "refresh_token_count": 0,
+        "access_token_count": 0,
+        "flush_interval": 1000
+    },
+    "audit_service": {
+        "user_authentication_count": 1,
+        "user_not_found_count": 0,
+        "principal_authentication_failure_count": 0,
+        "principal_not_found_count": 0,
+        "user_authentication_failure_count": 0
+    },
+    "config": {
+        "cloud_controller.login_url": "http://api.vcap.me/users/{username}/tokens",
+        "contextInitializerClasses": "org.cloudfoundry.identity.uaa.config.YamlServletProfileInitializer",
+        "cloud_controller.database.username": "root",
+        "spring_profiles": "jdbc,postgresql,!legacy",
+        "scim.client.secret": "$2a$08$duCE9bFm.duhfe6IrjC0Q.zIvJ9DfjBPhCcuJDj9fUVXaNjNeK5fi",
+        "batch.password": "batch_password",
+        "cloud_controller.databases.hsqldb.username": "sa",
+        "database.driverClassName": "org.postgresql.Driver",
+        "batch.username": "batch_user",
+        "app.client.secret": "$2a$08$Q7ZoYHasNrVzeaZ1Vjgau.2LsOJeDm7.KlCU9w3xZMDa60WYLfVom",
+        "bootstrap.admin.password": "$2a$10$ikFXo9IFG6zbMbhGcssySOhjDsGPpqzKwsdVOeCvJ7JoWjSQxyfs6",
+        "databases.hsqldb.driverClassName": "org.hsqldb.jdbcDriver",
+        "databases.hsqldb.password": "",
+        "database.password": "changeme",
+        "bootstrap.admin.username": "marissa",
+        "databases.hsqldb.username": "sa",
+        "database.username": "root",
+        "cloud_controller.client.secret": "$2a$08$BoWTL27.xae6li/bF3pybOGkEPk8v9LBwudhyuPc4DvvrFS4.TKv6",
+        "cloud_controller.database.driverClassName": "org.postgresql.Driver",
+        "databases.hsqldb.url": "jdbc:hsqldb:mem:jdbcUaaTests",
+        "bootstrap.admin.given_name": "Marissa",
+        "cloud_controller.databases.hsqldb.password": "",
+        "pid": "/var/vcap/sys/run/uaa.pid",
+        "jwt.token.key": "uaa_jwt_secret",
+        "cloud_controller.database.url": "jdbc:postgresql://192.168.1.15:5432/cloud_controller",
+        "my.client.secret": "$2a$08$fsPmrV9zHPU14qpPR1c49.GVRL8JvW33y1qlYFwiZWX4M8vM36bBW",
+        "cloud_controller.databases.hsqldb.url": "jdbc:hsqldb:mem:cloud_controller;sql.enforce_strict_size=true",
+        "database.url": "jdbc:postgresql://localhost:5432/uaa",
+        "bootstrap.admin.family_name": "Bloggs",
+        "mbus": "nats://nats:nats@192.168.1.15:4222/",
+        "bootstrap.admin.email": "marissa@test.org",
+        "cloud_controller.databases.hsqldb.driverClassName": "org.hsqldb.jdbcDriver",
+        "cloud_controller.database.password": "changeme",
+        "jvm_args": "-Xmx512m",
+        "name": "UAA"
+    },
+    "spring.profiles.active": [
+        "jdbc",
+        "postgresql",
+        "!legacy"
+    ]
+}

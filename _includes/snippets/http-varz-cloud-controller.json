@@ -1,0 +1,134 @@
+{
+  "type": "CloudController",
+  "index": null,
+  "uuid": "daffe9692ed6cd447f28b4ba874d202b",
+  "host": "192.168.1.15:41111",
+  "credentials": [
+    "37637511ab0e387f764646dea0a692f9",
+    "9d00ec8ab3ea7f5b35abcd341db578bf"
+  ],
+  "start": "2012-04-02 21:02:19 +0200",
+  "num_cores": 4,
+  "config": {
+    "external_uri": "api.vcap.me",
+    "description": "VMware's Cloud Application Platform",
+    "support_address": "http://support.cloudfoundry.com",
+    "local_route": null,
+    "allow_registration": true,
+    "allow_external_app_uris": false,
+    "app_uris": {
+      "allow_external": false,
+      "reserved_list": [
+
+      ]
+    },
+    "external_port": 9022,
+    "nginx": {
+      "use_nginx": false,
+      "insecure_instance_port": 9025
+    },
+    "logging": {
+      "level": "debug"
+    },
+    "rails_logging": {
+      "level": "debug"
+    },
+    "directories": {
+      "droplets": "/var/vcap/shared/droplets",
+      "resources": "/var/vcap/shared/resources",
+      "staging_manifests": "/home/frodenas/cloudfoundry/.deployments/devbox/config/staging",
+      "staging_cache": "/var/vcap/data/cloud_controller/staging",
+      "tmpdir": "/var/vcap/data/cloud_controller/tmp"
+    },
+    "pid": "/var/vcap/sys/run/cloudcontroller.pid",
+    "rails_environment": "production",
+    "uaa": {
+      "enabled": true,
+      "url": "http://uaa.vcap.me",
+      "resource_id": "cloud_controller",
+      "token_secret": "uaa_jwt_secret",
+      "client_secret": "cloudcontrollersecret"
+    },
+    "staging": {
+      "max_concurrent_stagers": 10,
+      "max_staging_runtime": 120,
+      "secure": false
+    },
+    "admins": [
+      "dev@cloudfoundry.org"
+    ],
+    "https_required": false,
+    "https_required_for_admins": false,
+    "default_account_capacity": {
+      "memory": 2048,
+      "app_uris": 4,
+      "services": 16,
+      "apps": 20
+    },
+    "builtin_services": {
+      "redis": {
+        "token": "changeredistoken"
+      },
+      "mongodb": {
+        "token": "changemongodbtoken"
+      },
+      "neo4j": {
+        "token": "changeneo4jtoken"
+      }
+    },
+    "allow_debug": true,
+    "runtimes": {
+      "ruby18": {
+        "version": "1.8.7"
+      },
+      "ruby19": {
+        "version": "1.9.2"
+      },
+      "node": {
+        "version": "0.4.12",
+        "debug_modes": [
+          "run",
+          "suspend"
+        ]
+      },
+      "node06": {
+        "version": "0.6.8",
+        "debug_modes": [
+          "run",
+          "suspend"
+        ]
+      },
+      "java": {
+        "version": "1.6.0",
+        "debug_modes": [
+          "run",
+          "suspend"
+        ]
+      },
+      "php": {
+        "version": "5.3.[2-6]"
+      },
+      "erlangR14B02": {
+        "version": ".* 5.8.3"
+      },
+      "python2": {
+        "version": "2.[67]"
+      }
+    },
+    "new_initial_placement": false,
+    "bulk_api": {
+      "auth": {
+        "user": "bulk_api"
+      }
+    },
+    "max_droplet_size": 536870912
+  },
+  "requests": 536,
+  "pending_requests": 0,
+  "requests_per_sec": 0,
+  "running_stage_cmds": 0,
+  "pending_stage_cmds": 0,
+  "uptime": "0d:2h:13m:50s",
+  "mem": 77584,
+  "cpu": 0.2
+}

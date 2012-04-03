@@ -25,7 +25,7 @@ Updates an application at target cloud.
 
 ### Requires Authentication?
 
-[Yes](/http-api/authentication)
+[Yes](/http-authentication)
 
 ### Example Request
 

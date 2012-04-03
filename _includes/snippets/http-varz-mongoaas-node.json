@@ -1,0 +1,43 @@
+{
+  "type": "MongoaaS-Node",
+  "index": 0,
+  "uuid": "0-49828865b0c5a5b706a2ed65e777c945",
+  "host": "192.168.1.15:52137",
+  "credentials": [
+    "e86c714dfe4efbfd09aed690c71a867f",
+    "a31b74bf5efc1d12c624f7f0f13b3543"
+  ],
+  "start": "2012-04-02 21:02:25 +0200",
+  "num_cores": 4,
+  "config": {
+    "index": 0,
+    "plan": "free",
+    "capacity": 50,
+    "base_dir": "/var/vcap/services/mongodb/instances",
+    "ip_route": null,
+    "node_id": "mongodb_node_0",
+    "z_interval": null,
+    "local_db": "sqlite3:/var/vcap/services/mongodb/mongodb_node.db",
+    "migration_nfs": "/mnt/migration",
+    "max_nats_payload": null,
+    "config_template": "/home/frodenas/cloudfoundry/vcap/services/mongodb/resources/mongodb.conf.erb",
+    "port_range": "25001..45000",
+    "mongod_path": "/home/frodenas/cloudfoundry/.deployments/devbox/deploy/mongodb/bin/mongod",
+    "mongorestore_path": "mongorestore",
+    "max_memory": 128,
+    "mongod_log_dir": "/var/vcap/services/mongodb/logs",
+    "max_clients": null,
+    "quota_files": null
+  },
+  "running_services": [
+
+  ],
+  "disk": {
+
+  },
+  "max_capacity": 50,
+  "available_capacity": 50,
+  "uptime": "0d:2h:32m:39s",
+  "mem": 50516,
+  "cpu": 0.1
+}

@@ -1,0 +1,61 @@
+{
+  "type": "Router",
+  "index": null,
+  "uuid": "cfa60e5597e98267c4197682efe12183",
+  "host": "192.168.1.15:42159",
+  "credentials": [
+    "7c9c84c5fcf6d095a4e8da349b5c29e6",
+    "6189c88df595ee687371ca9cb351ead0"
+  ],
+  "start": "2012-04-02 21:02:39 +0200",
+  "num_cores": 4,
+  "config": {
+    "sock": "/tmp/router.sock",
+    "logging": {
+      "level": "info"
+    },
+    "pid": "/var/vcap/sys/run/router.pid",
+    "config_file": "/home/frodenas/cloudfoundry/.deployments/devbox/config/router.yml"
+  },
+  "requests": 547,
+  "latency": {"value":230,"samples":3},
+  "responses_2xx": 547,
+  "responses_3xx": 0,
+  "responses_4xx": 0,
+  "responses_5xx": 0,
+  "responses_xxx": 0,
+  "bad_requests": 0,
+  "urls": 2,
+  "droplets": 2,
+  "tags": {
+    "component": {
+      "UAA": {
+        "requests": 0,
+        "latency": {"value":0,"samples":0},
+        "responses_2xx": 0,
+        "responses_3xx": 0,
+        "responses_4xx": 0,
+        "responses_5xx": 0,
+        "responses_xxx": 0
+      },
+      "CloudController": {
+        "requests": 547,
+        "latency": {"value":230,"samples":3},
+        "responses_2xx": 547,
+        "responses_3xx": 0,
+        "responses_4xx": 0,
+        "responses_5xx": 0,
+        "responses_xxx": 0
+      }
+    }
+  },
+  "client_connections": 0,
+  "app_connections": 0,
+  "requests_per_sec": 0,
+  "top10_app_requests": [
+
+  ],
+  "uptime": "0d:2h:15m:53s",
+  "mem": 25012,
+  "cpu": 0.1
+}

@@ -23,6 +23,7 @@ endpoint_categories:
   - http-apps
   - http-services
   - http-users
+  - http-varz
 nats_categories:
   - cloud-controller
   - dea
