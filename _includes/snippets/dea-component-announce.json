@@ -1,5 +1,5 @@
 {
-    "type": "CloudController",
+    "type": "DEA",
     "index": null,
     "uuid": "56539d9ec7b4bf85095ae8525febd207",
     "host": "192.168.1.15:36907",
