@@ -4,7 +4,7 @@ category: stager
 title: "Subscribe: vcap.stager.{queue}"
 ---
 
-The `vcap.stager.{queue}` message is sent out by the Cloud Controller](/cloud-controller)
+The `vcap.stager.{queue}` message is sent out by the [Cloud Controller](/cloud-controller)
 when using the external stager.  The `{queue}` defaults to `staging` normally.
 
 This message is sent out whenever the Cloud Controller needs to stage an

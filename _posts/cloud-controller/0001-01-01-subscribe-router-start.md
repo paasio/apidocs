@@ -29,7 +29,7 @@ to be sent back.
 
 It is triggered by the following components:
 
-* Router
+* [Router](/router)
 
 ### Triggered By
 
