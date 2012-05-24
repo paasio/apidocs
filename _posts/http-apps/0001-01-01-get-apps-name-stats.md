@@ -8,7 +8,7 @@ Returns information about application statistics on the target cloud.
 
 ### Resource URL
 
-`GET /apps/{name}/stats`
+    GET /apps/{name}/stats
 
 ### Parameters
 
@@ -18,13 +18,21 @@ Returns information about application statistics on the target cloud.
 
 [Yes](/http-authentication)
 
+### Response Codes
+
+* HTTP 200 - Success
+* HTTP 403, error code 200 - Operation forbidden, usually authentication failed
+* HTTP 404, error code 301 - Application not found
+
 ### Example Request
 
 **Request**
 
-`GET http://api.vcap.me/apps/apidocs/stats`
+    GET http://api.vcap.me/apps/apidocs/stats
 
 **Response**
+
+    200 OK
 
 <div class="js example">
 {% highlight js %}

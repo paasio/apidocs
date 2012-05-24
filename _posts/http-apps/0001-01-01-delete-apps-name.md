@@ -8,7 +8,7 @@ Deletes a provisioned service on the target cloud.
 
 ### Resource URL
 
-`DELETE /apps/{name}`
+    DELETE /apps/{name}
 
 ### Parameters
 
@@ -18,12 +18,18 @@ Deletes a provisioned service on the target cloud.
 
 [Yes](/http-authentication)
 
+### Response Codes
+
+* HTTP 200 - Success
+* HTTP 403, error code 200 - Operation forbidden, usually authentication failed
+* HTTP 404, error code 301 - Application not found
+
 ### Example Request
 
 **Request**
 
-`DELETE http://api.vcap.me/apps/apidocs`
+    DELETE http://api.vcap.me/apps/apidocs
 
 **Response**
 
-None
+    200 OK
